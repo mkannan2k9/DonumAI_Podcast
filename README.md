@@ -1,13 +1,13 @@
 # AI Podcast Generator
 
-***
+
 
 An automated podcast production tool that generates educational scripts, converts them to audio, creates episode metadata, and publishes directly to Podbean—all powered by Google Gemini AI.
 
 **Owner:** Kannan Murugapandian  
 **License:** MIT
 
-***
+
 
 ## Features
 
@@ -17,7 +17,7 @@ An automated podcast production tool that generates educational scripts, convert
 - **Metadata Creation:** Automatically generates an engaging title and description for the episode.
 - **Auto-Publishing:** Uploads the audio and publishes the episode directly to your **Podbean** hosting account via API.
 
-***
+
 
 ## Requirements
 
@@ -30,7 +30,7 @@ An automated podcast production tool that generates educational scripts, convert
   - `gTTS`
   - `requests`
 
-***
+
 
 ## Installation
 
@@ -60,7 +60,7 @@ An automated podcast production tool that generates educational scripts, convert
 4. **Verify Files:**
    Ensure `topicsandsubjects.txt` exists in the root directory (or let the script create it). This file tracks used topics to prevent repetition.
 
-***
+
 
 ## Usage
 
@@ -82,7 +82,7 @@ An automated podcast production tool that generates educational scripts, convert
 4.  **Metadata:** A title and description are generated.
 5.  **Publishing:** The file is uploaded to Podbean and published live.
 
-***
+
 
 ## Endpoints
 
@@ -90,7 +90,7 @@ An automated podcast production tool that generates educational scripts, convert
 | :--- | :--- | :--- |
 | `/trigger/hello` | GET | Triggers the full production pipeline (Topic -> Script -> Audio -> Publish). |
 
-***
+
 
 ## Configuration
 
@@ -98,7 +98,7 @@ An automated podcast production tool that generates educational scripts, convert
 - **Voice:** Uses `gTTS` (default English). You can modify the `lang` parameter in the `trigger_podcast` function to change the accent/language.
 - **History:** To reset the topic history, simply delete or clear `topicsandsubjects.txt`.
 
-***
+
 
 ## License
 
@@ -124,7 +124,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-***
+
 
 ## Acknowledgements
 
@@ -132,6 +132,6 @@ SOFTWARE.
 - [Podbean API](https://developers.podbean.com/)
 - [gTTS](https://pypi.org/project/gTTS/)
 
-***
+
 
 **For questions or support, contact Kannan Murugapandian.**
