@@ -36,7 +36,7 @@ An automated podcast production tool that generates educational scripts, convert
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/mkannan2k9/ai-podcast-generator.git
+   git clone https://github.com/mkannan2k9/DonumAI_Podcast.git
    cd ai-podcast-generator
    ```
 
